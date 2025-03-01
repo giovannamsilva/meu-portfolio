@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Portfólio</title>
+    <link rel="icon" href="img/icone.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" id="logo1" src="img/logo.png" alt="logo" title="logo">
+        <nav>
+            <a class="link" href="#quemsoueu">Quem sou eu</a>
+            <a class="link" href="#meusprojetos">Meus projetos</a>
+            <a class="link" href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="secao-quem-sou-eu" id="quemsoueu">
+            <img class="minha-foto" src="img/eu.jpg" alt="Foto de Giovanna" title="Foto de Giovanna">
+            <div class="texto-quem-sou-eu">
+                <h1>Quem sou eu?</h1>
+                <p>
+                    Muito prazer! Me chamo Giovanna, tenho 20 anos e sou estudante de Análise e Desenvolvimento de Sistemas. 
+                    Tenho um enorme interesse em programação Front-End. Já fiz cursos de HTML, CSS e JavaScript, e pretendo
+                    me aprofundar ainda mais nessa área. Além desses, tenho cursos de Java, PostgreSQL, Lógica de Programação,
+                    Git e GitHub. Tenho conhecimento em Power BI e plataforma SAP. Convido vocês a conhecer um pouco do meu 
+                    trabalho e conhecimento através dos meus projetos!
+                </p>
+            </div>
+        </section>
+
+        <section class="secao-meus-projetos" id="meusprojetos">
+            <div class="container-projetos">
+                <div class="topo-projetos">
+                    <div class="botoes">
+                        <button id="anterior">&lt; </button>
+                        <button id="proximo"> &gt;</button>
+                    </div>
+                    <a href="projetos.html" class="ver-tudo">Ver Tudo</a>
+                </div>
+
+                <div class="conteudo-projeto">
+                    <h2 id="titulo-projeto">Projeto 1</h2>
+                    <p id="descricao-projeto">Descrição do projeto 1...</p>
+                    <a id="link-github" href="#" target="_blank" class="botao-github">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-contato" id="contato">
+            <h2>Contato</h2>
+            <div class="contato-links">
+                <a href="https://github.com/giovannamsilva" target="_blank" class="contato-link">
+                    <img src="img/iconegithub.png" alt="GitHub">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/giovannamsilva/" target="_blank" class="contato-link">
+                    <img src="img/iconelinkedin.jpg" alt="LinkedIn">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://vercel.com/giovannamsilvas-projects" target="_blank" class="contato-link">
+                    <img src="img/vercelicone.svg" alt="Vercel">
+                    <span>Vercel</span>
+                </a>
+            </div>
+        </section>        
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="ano-atual"></span> - Giovanna Silva. Todos os direitos reservados.</p>
+    </footer>
+     
+    <script src="app.js"></script>
+</body>
+</html>
