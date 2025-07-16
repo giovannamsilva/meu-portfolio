@@ -5,7 +5,17 @@ document.addEventListener("DOMContentLoaded", function() {
             descricao: "Este site foi criado por mim mesma utilizando apenas HTML, CSS e JavaScript. Tem como objetivo"
                       + " apresentar e descrever um pouco dos meus projetos.",
             github: "https://github.com/giovannamsilva/meu-portfolio"
-        },        
+        },     
+        {
+            titulo: "Automação com Web Scraping em Java",
+            descricao: "Este projeto foi desenvolvido como parte de um teste técnico, com o objetivo de automatizar tarefas repetitivas "
+         + "usando Java. A aplicação acessa um site institucional, localiza e baixa automaticamente dois arquivos PDF específicos, "
+         + "e então os compacta em um único arquivo .zip. Para isso, foi utilizada a biblioteca Jsoup para realizar o web scraping. "
+         + "O projeto também faz uso de manipulação de arquivos e diretórios, seguindo os princípios da orientação a objetos. "
+         + "Além de resolver o desafio proposto, o projeto mostra como a automação pode ser aplicada de forma simples e eficaz "
+         + "para otimizar processos do dia a dia.",
+            github: "https://github.com/giovannamsilva/WEB-SCRAPING"
+        },   
         {
             titulo: "Compra de Ingresso",
             descricao: "Este site foi desenvolvido em uma aula de Lógica de Programação utilizando JavaScript, "
